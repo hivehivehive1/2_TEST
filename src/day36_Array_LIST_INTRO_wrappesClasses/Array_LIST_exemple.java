@@ -11,7 +11,6 @@ public class Array_LIST_exemple {
 		lang.add("Wrong English");
 		lang.add("Manka");
 		System.out.println("Number of values: " + lang.size());
-		
 		lang.add("CHURKISH");
 		
 		System.out.println("Number of values: " + lang.size());
