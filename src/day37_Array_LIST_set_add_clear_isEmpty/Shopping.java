@@ -1,4 +1,4 @@
-package day37_Array_LIST;
+package day37_Array_LIST_set_add_clear_isEmpty;
 import java.util.*;
 import java.util.ArrayList;
 public class Shopping {
