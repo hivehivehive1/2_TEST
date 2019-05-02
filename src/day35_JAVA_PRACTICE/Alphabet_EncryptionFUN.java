@@ -18,14 +18,14 @@ public class Alphabet_EncryptionFUN {
 
 	//with a loop
 		String encryptedWord = "";
-		for(int a = 0; a < word.length(); a++) {
-			char ch = word.charAt(a);
+		for(int i = 0; i< word.length(); i++) {
+			char ch = word.charAt(i);
 
 			//find in aplphabet
 			int index = alphabet.indexOf(ch);
-			//System.out.print(encrypted.charAt(index));
-			encryptedWord += encrypted.charAt(index);
-			System.out.print(index + "-");
+			System.out.print(encrypted.charAt(index) + "+");
+			encryptedWord += encrypted.charAt(index);//v
+			System.out.print(index + " - ");
 		}System.out.println();
 		System.out.println(word);
 		System.out.println(encryptedWord);

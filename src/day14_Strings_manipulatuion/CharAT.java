@@ -37,4 +37,6 @@ public class CharAT {
 		String word4 = "Java";
 		char lastChar = word4.charAt(word4.length() -1);
 		System.out.println("Last value of " + word4 + " is " + lastChar);
+		
+		
 }}
