@@ -20,12 +20,11 @@ public class Array_LIST {
 		nums.add(333);
 		nums.add(444);
 		nums.add(555);
+		
 		//read from ArrayList
-		
-		System.out.println(names);
-		System.out.println(names.get(0));
-		System.out.println(nums);
-		System.out.println("Names count: " + names.size());
-		System.out.println("Nums count: " + nums.size());
-		
+		System.out.println(names);		  //[Adilet, Urmat, Aigul, Nurbek, Ulan]
+		System.out.println(names.get(0)); //Adilet
+		System.out.println(nums); 		  //[111, 222, 333, 444, 555]
+		System.out.println("Names count: " + names.size()); //Names count: 5
+		System.out.println("Nums count: " + nums.size());   //Nums count: 5
 }}

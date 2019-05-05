@@ -2,20 +2,23 @@ package OH_april_30;
 import java.util.Arrays;
 public class ADD_Arrays {
 	public static void main(String[] args) {
-		int[] nums1 = { 10, 20, 5, 3, 6 };
-		int[] nums2 = { 5, 1, 1, 4, 10 };
+		int[] nums1 = { 10, 20, 30, 40, 50 };
+		int[] nums2 = { 11, 11, 11, 11, 11 };
 
 		// declare new empty array with size of nums1
-//		int[] nums3 = new int[nums1.length];
-//
-//		for (int i = 0; i < nums1.length; i++) {
-//			nums3[i] = nums1[i] + nums2[i];
-//		}
-		
+// 1) same shit
+		int[] nums3 = new int[nums1.length];
+
+		for (int i = 0; i < nums1.length; i++) {
+			nums3[i] = nums1[i] + nums2[i];
+		}
+// 2) same shit
 		int[] newArray = add2Arrays(nums1, nums2);
 
 		System.out.println("nums1:    " + Arrays.toString(nums1));
 		System.out.println("nums2:    " + Arrays.toString(nums2));
+		System.out.println("nums3:    " + Arrays.toString(nums3));
+		
 		System.out.println("newArray: " + Arrays.toString(newArray));
 System.out.println("===========================================================");		
 		String[] first = {"cybertek", "java", "student", "mentor"};
@@ -24,7 +27,6 @@ System.out.println("==========================================================="
 		System.out.println("first:    " + Arrays.toString(first));
 		System.out.println("second:    " + Arrays.toString(second));
 		System.out.println("third: " + Arrays.toString(third));
-		
 	}
 	
 	/* add2Arrays return type: int[] params: int[] nums1, int[] nums2 add each value
