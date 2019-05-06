@@ -89,11 +89,11 @@ public class CustomListMethods {
 //5) convertToIntList
 //	 return type: List<Integer>
 //	 Params: List<String>
-//	It will take each string and conver to Integer and return as Integer list
+//It will take each string and conver to Integer and return as Integer list
 //		List<String> strL = new ArrayList<>();
 //		   strL.add("56");
 //		   strL.add("99");
-//		   convertToIntList(strL); => [56, 99] 
+//		   convertToIntList(strL); => [56, 99]
 		public static List<Integer> convertToIntList(List<String> strList) {
 	        List<Integer> newList = new ArrayList<>();
 	        for(String str : strList) {
