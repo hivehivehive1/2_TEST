@@ -2,23 +2,18 @@ package _TEMP;
 import java.util.*;
 public class TEMP_1 {
 	public static void main(String[] args) {
-		String[] r1 = {"f","o","o"};
-		String[] r2 = {" b","a","r"};
-		String[] cc = new String[r1.length + r2.length];
-
-		for (int i = 0; i < r1.length; i++) {
-			cc[i] = r1[i];
-		}
-		for (int i = 0; i < r2.length; i++) {
-			cc[(cc.length-r2.length) + i] = r2[i];
-		}
-		ArrayList<String> c = new ArrayList<>();
-		for(String comp : cc) {
-			c.add(comp);
-		}
-		String notepad2 = "";
-		for(String notepad : c) {
-			notepad2 += notepad;
-		}
-		System.out.println(notepad2);
+		int[] a = {1, 2, 3};
+		int[] b = {4, 5, 6};
+		
+	    int i = 0;
+	    int[] com = new int[a.length + b.length];
+	    for(int m : a) {
+	        com[i] = m;
+	        i++;
+	    }
+	    for(int m : b) {
+	        com[i] = m;
+	        i++;
+	    }
+		System.out.println(Arrays.toString(com));
 }}
