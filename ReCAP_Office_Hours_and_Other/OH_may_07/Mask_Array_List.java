@@ -18,9 +18,9 @@ public class Mask_Array_List {
             answer = scan.next();
         }while(answer.equalsIgnoreCase("y"));
         
-        System.out.println(inputs.toString());
-        System.out.println(masked.toString());
-        System.out.println(lengthsList.toString()); 
+        System.out.println("Word:   " + inputs.toString());
+        System.out.println("Stars:  " + masked.toString());
+        System.out.println("Length: " + lengthsList.toString()); 
     }
     /* maskWord
      * return: String
