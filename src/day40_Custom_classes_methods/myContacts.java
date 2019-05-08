@@ -22,12 +22,4 @@ public class myContacts {
 		Putin.call();
 		Putin.sendMessage();
 		Putin.sendEmail();
-		
-		
-		
-		
-		
-		
-		
-		
 }}

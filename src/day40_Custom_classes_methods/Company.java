@@ -13,7 +13,4 @@ public class Company {
 		emp1.jobTitle = "Team Lead";
 		emp1.salary = 120500.2;
 		emp1.introduce();
-		
-
-	}
-}
+}}

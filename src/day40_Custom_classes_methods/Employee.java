@@ -15,7 +15,4 @@ public class Employee {
 	public void introduce() {
 		System.out.println("Name[" + name +"], jobTitle[" + jobTitle 
 				+"], salary[" + salary + "]");
-	}
-	
-}
-
+}}
