@@ -32,11 +32,4 @@ public class Comp_shop {
 		comp3.setPrice(comp3.getPrice() - 500);
 		System.out.println(comp3.toString());
 //Comp [Brand = ASUS, OS = Windows 11, Price = 145.5]		
-		
-		
-		
-		
-		
-		
-
 }}
