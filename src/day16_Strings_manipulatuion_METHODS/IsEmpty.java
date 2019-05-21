@@ -18,5 +18,4 @@ public class IsEmpty {
 		if(userName.length() == 0) {
 			System.out.println("Username length is 0, so it is empty"); //Username length is 0, so it is empty
 		}
-
 }}

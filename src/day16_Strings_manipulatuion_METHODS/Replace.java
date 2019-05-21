@@ -7,8 +7,5 @@ public class Replace {
 		String words = s.nextLine();
 		System.out.println(words.replace("a", "b"));
 		
-		System.out.println(words.replace("sad", "happy"));
-		
-		
-		
+		System.out.println(words.replace("sad", "happy"));	
 }}

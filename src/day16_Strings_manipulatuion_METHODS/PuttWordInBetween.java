@@ -5,9 +5,5 @@ public class PuttWordInBetween {
 		String word = "Java";
 		String result = chars.substring(0, 2) + word + chars.substring(2);
 		System.out.println(result); //<<Java>>
-				
-				
-
 	}
-
 }
