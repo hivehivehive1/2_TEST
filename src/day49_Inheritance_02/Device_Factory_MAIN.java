@@ -6,7 +6,4 @@ public class Device_Factory_MAIN {
 		dv.model = "3300";
 		dv.price = 2500;
 	  //dv.country = "USA"; NOT VISIBLE, PRIVATE
-
-	}
-
-}
+}}
