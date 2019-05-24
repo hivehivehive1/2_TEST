@@ -3,14 +3,22 @@ import java.util.*;
 public class a204_Arrays_Populate_ARRAY {
 	public static void main(String[] args) {
 		
-		int[] r = new int[5];
-		int[] arr = new int[r.length];
+		int[] r1 = new int[10];
+		for (int i = 0; i < r1.length; i++) {
+			r1[i] = i + 1;
+		}
+		System.out.println(Arrays.toString(r1));
+
+System.out.println("============URMA===============");
+
+		int[] r2 = new int[10];
+		int[] arr = new int[r2.length];
 		for (int i = 1, j = 0; i <= arr.length; i++, j++) {
 			arr[j] = i;
 		}
 		System.out.println(Arrays.toString(arr));
-		
-System.out.println("===============================");
+
+System.out.println("=============OMA===============");
 
 		int[] i2 = new int[10];
 		int idx = 0;
