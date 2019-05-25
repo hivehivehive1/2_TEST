@@ -1,6 +1,10 @@
 package _TEMP;
 public class TEMP_3 {
 	public static void main(String[] args) {
+System.out.println("\n============================= REV My Name ===================================");			
+		String nameRev = "Adilet S.";
+		String reversed = new StringBuilder(nameRev).reverse().toString();
+		System.out.println("Adilet S. | " + reversed);
 System.out.println("============================== REV with while =================================");
 		String hello = "Hello";
 		int a = hello.length() -1;
@@ -46,15 +50,20 @@ System.out.println("============================== large number ================
 		}
 		System.out.println(min);
 System.out.println("=============================== 1 > 20 ========================================");
-for(int i = 1; i <= 20; i++) {
-	System.out.print(i + ", ");
-}		
-			
-			
-			
-			
-			
-			
+		for (int i = 1; i <= 20; i++) {
+			System.out.print(i + ", ");
+		}
+System.out.println("\n=================== Division without Divide or Mod ==========================");
+		int divident = 100;
+		int divisor = 2;
+		int count = 0;
+		while (divident >= divisor) {
+			divident = divident - divisor;
+			count++;
+		}
+		System.out.println("quotient = " + count);
+		
+System.out.println("=================== ==========================");
 			
 			
 			
