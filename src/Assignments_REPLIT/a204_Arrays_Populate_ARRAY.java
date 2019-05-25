@@ -2,7 +2,8 @@ package Assignments_REPLIT;
 import java.util.*;
 public class a204_Arrays_Populate_ARRAY {
 	public static void main(String[] args) {
-		
+System.out.println("============Jinka==============");
+
 		int[] r1 = new int[10];
 		for (int i = 0; i < r1.length; i++) {
 			r1[i] = i + 1;
