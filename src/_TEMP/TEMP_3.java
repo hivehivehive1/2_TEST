@@ -15,7 +15,7 @@ System.out.println("============================== REV with while ==============
 		} System.out.println(rev); // Hello => olleH
 System.out.println("=========================== replace with while ================================");
 		String replace = "123 hive 123";
-		while (replace.contains("hive")) {
+		while (replace.contains("hive")) {	
 			replace = replace.replace("hive", "hello");
 		}
 		System.out.print(replace); // hive => hello
@@ -31,7 +31,7 @@ System.out.println("\n============================= print Z > A ================
 			System.out.print(printZA + ". ");
 			printZA--;	
 		}		
-System.out.println("\n============================== small number =================================");
+System.out.println("\n============================= small number ==================================");
 		int[] nMin = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 99 };
 		int min = 100;
 		for (int i = 0; i < nMin.length; i++) {

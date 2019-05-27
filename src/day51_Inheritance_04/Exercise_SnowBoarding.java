@@ -1,0 +1,10 @@
+package day51_Inheritance_04;
+
+public class Exercise_SnowBoarding extends Exercise{
+	public int perform(int minutes) {
+		int cals = super.perform(10);//call super class version of perform
+		System.out.println("Snowboarding for " + minutes + " minutes");
+		return minutes * 7 + cals;
+	}
+
+}
