@@ -12,8 +12,8 @@ a218_OOP_13_Catalog_Project_APPLE ctl = new a218_OOP_13_Catalog_Project_APPLE();
 		System.out.println(ctl.monthlyPayments.toString());
 
 a218_OOP_13_Catalog_Project_APPLE ctl2 = new a218_OOP_13_Catalog_Project_APPLE();
-    ctl2.loadWholeCatalog();
-    System.out.println(ctl2.getWholeCatalog().toString().trim());
+		ctl2.loadWholeCatalog();
+		System.out.println(ctl2.getWholeCatalog().toString().trim());
 		
   }
 }
