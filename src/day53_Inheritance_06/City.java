@@ -4,13 +4,15 @@ public class City {
 	private int id;
 	private String name;
 	
+	
 	public City(int id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
 	}
+	@Override
 	public int hashCode() {
-		return id + name.length();
+		return "id: " + id + "name:" + name;
 	}
 	
 	
@@ -40,7 +42,4 @@ public class City {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	
-
 }
