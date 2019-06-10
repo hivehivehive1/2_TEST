@@ -30,6 +30,4 @@ public class ExplicitCasting {
 		//explicit: double > byte,
 		//implicit: byte > int.
 
-	}
-
-}
+}}

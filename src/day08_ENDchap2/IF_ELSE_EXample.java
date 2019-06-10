@@ -1,5 +1,4 @@
 package day08_ENDchap2;
-
 public class IF_ELSE_EXample {
 
 	public static void main(String[] args) {

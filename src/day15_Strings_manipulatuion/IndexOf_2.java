@@ -19,6 +19,5 @@ public class IndexOf_2 {
 		//int firstDash = list.indexOf("-");
 		//int secondDash = list.indexOf("-", 5); 
 		//int thirdDash = list.indexOf("-", secondDash + 1);
-		//int lastDash = list.lastIndexOf("-");
-		
+		//int lastDash = list.lastIndexOf("-");	
 }}
