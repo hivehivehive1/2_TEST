@@ -17,7 +17,9 @@ public class Electric_InterfaceTests {
 		cat.keepAsPet();
 		cat.play();
 		cat.play();
+		
 		Pet.feed("SHIT");
+		System.out.println();
 
 	}
 
