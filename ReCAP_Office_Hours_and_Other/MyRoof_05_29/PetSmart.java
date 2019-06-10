@@ -16,7 +16,6 @@ public class PetSmart {
 
 		marufsImaginaryCat.makeSomeNoice();
 	}
-
 	public static void sellCat(Cat cat) {
 		System.out.println("selling " + cat.breed);
 		System.out.println("its name is " + cat.name);

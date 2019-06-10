@@ -1,5 +1,4 @@
 package Vasia_may_30;
-
 public class Student {
 	//inctase variable
 	private String school;
